@@ -1,0 +1,15 @@
+{
+  "name": "elder-vote-bot",
+  "version": "1.0.0",
+  "description": "Discord Server Voting Bot named Elder",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "sqlite3": "^5.1.7"
+  }
+}
